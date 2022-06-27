@@ -1,0 +1,57 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.header-img {
+  background-image: url(../img/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.header-img .header-left {
+  width: 300px;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.header-img .header-left .header-left-text div {
+  width: 136px;
+  height: 40px;
+}
+.header-img .header-left .header-left-text div:hover {
+  color: #14916a;
+  background-color: #fff;
+}
+.header-img .header-left .header-left-text div a {
+  color: #fff;
+  text-decoration: none;
+}
+.header-img .header-left .header-left-text div a:hover {
+  color: #14916a;
+  background-color: #fff;
+}
+.header-img .header-left .header-left-text div a img {
+  float: left;
+}
+.header-img .header-left .header-left-text .call {
+  width: 232px;
+  height: 74px;
+  border: 1px solid #575e63;
+}
+.header-img .header-left .header-top {
+  height: 97px;
+  background-color: #fff;
+  border-bottom: 3px solid #37a180;
+}
+.header-img .header-left .header-top img {
+  margin-top: 25px;
+  margin-left: 52px;
+}
+.header-img .header-left .header-top .triangle {
+  width: 0;
+  height: 0;
+  border-top: 10px solid #14916a;
+  border-right: 10px solid #14916a;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid transparent;
+  margin-left: 280px;
+  margin-top: -85px;
+}
